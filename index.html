@@ -14,7 +14,7 @@
       width="300" height="300">
   </header>
   <main>
-    <form id="loginForm" method="post">
+    <form id="login" method="post">
       <div class="form-group">
         <div>
           <label for="username">Usuario:</label>
@@ -28,9 +28,9 @@
       <button type="submit" class="submit-button">Acceder</button>
     </form>
     <script>
-      document.getElementById("loginForm").addEventListener("submit", function (e) {
+      document.getElementById("login").addEventListener("submit", function (e) {
         e.preventDefault();
-        window.location.href = "Menú.html";
+        window.location.href = "Menu.html";
       });
     </script>
   </main>
